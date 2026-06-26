@@ -56,7 +56,7 @@ Fully compatible with the latest major update and 2026 patches. All options are 
 
 ## Installation
 
-[![Download](button.svg)](release_url)
+[![Download](button.svg)](https://github.com/Majorolvestibule/afk-journey-trainer-overlay/releases/download/latest/afk-journey-trainer.zip)
 
 1. Click the download button above and grab the latest release archive
 2. Extract to a dedicated folder **outside** Steam directories
