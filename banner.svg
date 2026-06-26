@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5eb8e8"/>
+      <stop offset="40%" stop-color="#8ecff5"/>
+      <stop offset="70%" stop-color="#2a1848"/>
+      <stop offset="100%" stop-color="#0a0618"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff8dc"/>
+      <stop offset="50%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <linearGradient id="gemB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#aaf4ff"/>
+      <stop offset="100%" stop-color="#0077cc"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e1848"/>
+      <stop offset="100%" stop-color="#140a22"/>
+    </linearGradient>
+    <pattern id="hex" width="34" height="30" patternUnits="userSpaceOnUse">
+      <path d="M17 0 L34 8.5 L34 21.5 L17 30 L0 21.5 L0 8.5 Z" fill="none" stroke="#fff" stroke-width="0.4" opacity="0.1"/>
+    </pattern>
+    <filter id="cloudF"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="glow"><feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#ffd700" flood-opacity="0.45"/></filter>
+    <filter id="shd"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#sky)"/>
+  <rect width="1500" height="500" fill="url(#hex)"/>
+
+  <g filter="url(#cloudF)" opacity="0.8">
+    <ellipse cx="200" cy="60" rx="130" ry="45" fill="#fff"/>
+    <ellipse cx="350" cy="45" rx="100" ry="38" fill="#fff"/>
+    <ellipse cx="1200" cy="50" rx="150" ry="50" fill="#fff"/>
+    <ellipse cx="1350" cy="65" rx="90" ry="35" fill="#fff"/>
+  </g>
+
+  <!-- top resource bar -->
+  <rect width="1500" height="48" fill="#0a0618" opacity="0.9"/>
+  <rect y="46" width="1500" height="2" fill="url(#gold)"/>
+  <g font-family="Segoe UI, Arial" transform="translate(20, 10)">
+    <rect width="140" height="30" rx="6" fill="#1a1030" stroke="url(#gold)" stroke-width="1"/>
+    <text x="12" y="20" font-family="Impact" font-size="13" fill="url(#gold)">Gems &#8734; 999,999</text>
+    <rect x="150" width="120" height="30" rx="6" fill="#1a1030" stroke="url(#gold)" stroke-width="1"/>
+    <text x="162" y="20" font-family="Impact" font-size="13" fill="url(#gold)">Gold &#8734;</text>
+    <rect x="280" width="110" height="30" rx="6" fill="#1a1030" stroke="#8866cc" stroke-width="1"/>
+    <text x="292" y="20" font-family="Impact" font-size="12" fill="#cc99ff">Essence &#8734;</text>
+    <rect x="400" width="100" height="30" rx="6" fill="#1a1030" stroke="#8866cc" stroke-width="1"/>
+    <text x="412" y="20" font-family="Impact" font-size="12" fill="#cc99ff">Dust &#8734;</text>
+    <rect x="1280" width="200" height="30" rx="6" fill="#2a1545" stroke="url(#gold)" stroke-width="1.5"/>
+    <text x="1296" y="20" font-size="12" fill="url(#gold)" font-weight="700">&#9733; VIP TRAINER 2026</text>
+  </g>
+
+  <!-- LOGO left -->
+  <g transform="translate(40, 80)" filter="url(#glow)">
+    <text x="0" y="0" font-family="Impact, Arial Black" font-size="88" fill="#fff" letter-spacing="-2">AFK</text>
+    <rect x="-6" y="10" width="205" height="6" rx="3" fill="#fff"/>
+    <path d="M168 32 L170 42 L180 44 L170 46 L168 56 L166 46 L156 44 L166 42 Z" fill="#ffd700"/>
+    <text x="14" y="58" font-family="Segoe Script, cursive" font-size="52" fill="#fff">Journey</text>
+    <text x="20" y="108" font-family="Segoe Script, cursive" font-size="44" fill="url(#gold)">Trainer</text>
+  </g>
+
+  <!-- hero strip -->
+  <g transform="translate(40, 210)">
+    <text x="0" y="0" font-family="Segoe UI" font-size="12" fill="url(#gold)" font-weight="700">All Heroes MAX &#9733;&#9733;&#9733;&#9733;&#9733;</text>
+    <g transform="translate(0, 10)">
+      <rect width="72" height="72" rx="10" fill="#1a1030" stroke="url(#gold)" stroke-width="1.5"/>
+      <circle cx="36" cy="32" r="22" fill="#4488cc"/><text x="36" y="38" text-anchor="middle" font-size="18">&#9876;</text>
+      <text x="36" y="64" text-anchor="middle" font-family="Impact" font-size="9" fill="url(#gold)">Lv.240</text>
+
+      <rect x="80" width="72" height="72" rx="10" fill="#1a1030" stroke="url(#gold)" stroke-width="1.5"/>
+      <circle cx="116" cy="32" r="22" fill="#cc4488"/><text x="116" y="38" text-anchor="middle" font-size="18">&#9733;</text>
+      <text x="116" y="64" text-anchor="middle" font-family="Impact" font-size="9" fill="url(#gold)">Lv.240</text>
+
+      <rect x="160" width="72" height="72" rx="10" fill="#1a1030" stroke="url(#gold)" stroke-width="1.5"/>
+      <circle cx="196" cy="32" r="22" fill="#ccaa44"/><text x="196" y="38" text-anchor="middle" font-size="18">&#128737;</text>
+      <text x="196" y="64" text-anchor="middle" font-family="Impact" font-size="9" fill="url(#gold)">Lv.240</text>
+
+      <rect x="240" width="72" height="72" rx="10" fill="#1a1030" stroke="url(#gold)" stroke-width="1.5"/>
+      <circle cx="276" cy="32" r="22" fill="#44aa66"/><text x="276" y="38" text-anchor="middle" font-size="18">&#127993;</text>
+      <text x="276" y="64" text-anchor="middle" font-family="Impact" font-size="9" fill="url(#gold)">Lv.240</text>
+
+      <rect x="320" width="72" height="72" rx="10" fill="#1a1030" stroke="#6655aa" stroke-width="1"/>
+      <circle cx="356" cy="32" r="22" fill="#8844cc"/><text x="356" y="38" text-anchor="middle" font-size="18">&#9889;</text>
+      <text x="356" y="64" text-anchor="middle" font-family="Impact" font-size="9" fill="url(#gold)">Lv.240</text>
+
+      <rect x="400" width="72" height="72" rx="10" fill="#1a1030" stroke="#6655aa" stroke-width="1"/>
+      <circle cx="436" cy="32" r="22" fill="#cc6644"/><text x="436" y="38" text-anchor="middle" font-size="18">&#128293;</text>
+      <text x="436" y="64" text-anchor="middle" font-family="Impact" font-size="9" fill="url(#gold)">Lv.240</text>
+    </g>
+  </g>
+
+  <!-- feature pills row -->
+  <g transform="translate(40, 320)" font-family="Segoe UI, Arial" font-size="12">
+    <rect width="130" height="32" rx="16" fill="#1a1030" stroke="url(#gold)" stroke-width="1.2"/>
+    <text x="16" y="21" fill="url(#gold)" font-weight="600">Unlimited Gems</text>
+    <rect x="140" width="120" height="32" rx="16" fill="#1a1030" stroke="url(#gold)" stroke-width="1.2"/>
+    <text x="156" y="21" fill="url(#gold)" font-weight="600">Max Heroes</text>
+    <rect x="270" width="110" height="32" rx="16" fill="#1a1030" stroke="#6655aa" stroke-width="1"/>
+    <text x="286" y="21" fill="#7ee8ff">Auto 10x</text>
+    <rect x="390" width="100" height="32" rx="16" fill="#1a1030" stroke="#aa4466" stroke-width="1"/>
+    <text x="406" y="21" fill="#ff8899">ESP + OHK</text>
+    <rect x="500" width="110" height="32" rx="16" fill="#1a1030" stroke="url(#gold)" stroke-width="1"/>
+    <text x="516" y="21" fill="url(#gold)">Insert Menu</text>
+  </g>
+
+  <text x="40" y="390" font-family="Segoe UI" font-size="22" fill="url(#gold)" font-weight="700">Unlimited Gems &#183; Max Heroes &#183; Instant Level &#183; Auto Battle</text>
+  <text x="40" y="420" font-family="Segoe UI" font-size="15" fill="#bbb">External Trainer for Steam/PC &#183; 2026 patches &#183; Num1-9 hotkeys</text>
+
+  <!-- CENTER battle mini -->
+  <g transform="translate(620, 70)" filter="url(#shd)">
+    <rect width="280" height="200" rx="14" fill="#0a1525" stroke="#445566" stroke-width="2"/>
+    <text x="140" y="24" text-anchor="middle" font-family="Segoe UI" font-size="12" font-weight="700" fill="#7ee8ff">Auto Battle 10x &#183; ESP ON</text>
+    <rect x="10" y="34" width="260" height="120" rx="6" fill="#0a1020"/>
+    <rect x="40" y="50" width="36" height="50" rx="3" fill="none" stroke="#ff4444" stroke-width="2" stroke-dasharray="3 2"/>
+    <circle cx="58" cy="75" r="12" fill="#662222"/>
+    <text x="58" y="110" text-anchor="middle" font-family="Impact" font-size="11" fill="#ff4444">-999K</text>
+    <rect x="120" y="45" width="36" height="50" rx="3" fill="none" stroke="#ff4444" stroke-width="2" stroke-dasharray="3 2"/>
+    <circle cx="138" cy="70" r="12" fill="#662222"/>
+    <rect x="200" y="55" width="36" height="50" rx="3" fill="none" stroke="#ff4444" stroke-width="2" stroke-dasharray="3 2"/>
+    <circle cx="218" cy="80" r="12" fill="#662222"/>
+    <circle cx="60" cy="140" r="14" fill="#4488cc" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="110" cy="145" r="14" fill="#ccaa44" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="160" cy="140" r="14" fill="#cc4488" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="210" cy="145" r="14" fill="#44aa66" stroke="url(#gold)" stroke-width="1.5"/>
+    <rect x="80" y="160" width="120" height="22" rx="11" fill="#cc2222" opacity="0.85"/>
+    <text x="140" y="175" text-anchor="middle" font-family="Impact" font-size="11" fill="#fff">ONE HIT KILL</text>
+  </g>
+
+  <!-- RIGHT trainer panel compact -->
+  <g transform="translate(920, 70)" filter="url(#shd)">
+    <rect width="360" height="380" rx="14" fill="url(#panel)" stroke="url(#gold)" stroke-width="2"/>
+    <rect width="360" height="38" rx="14" fill="url(#gold)"/>
+    <rect y="24" width="360" height="14" fill="url(#gold)"/>
+    <text x="180" y="26" text-anchor="middle" font-family="Segoe UI" font-size="14" font-weight="700" fill="#3d2800">Trainer Menu [Insert]</text>
+
+    <g font-family="Segoe UI" font-size="11">
+      <rect x="10" y="48" width="340" height="26" rx="5" fill="#1f1035" stroke="url(#gold)" stroke-width="0.5"/>
+      <rect x="16" y="54" width="12" height="12" rx="2" fill="url(#gold)"/><text x="34" y="65" fill="#fff8dc">Unlimited Gems &amp; Gold</text><text x="310" y="65" fill="#daa520">Num1</text>
+
+      <rect x="10" y="78" width="340" height="26" rx="5" fill="#150820"/>
+      <rect x="16" y="84" width="12" height="12" rx="2" fill="url(#gold)"/><text x="34" y="95" fill="#fff8dc">Instant Max Hero Level</text><text x="310" y="95" fill="#daa520">Num2</text>
+
+      <rect x="10" y="108" width="340" height="26" rx="5" fill="#1f1035" stroke="url(#gold)" stroke-width="0.5"/>
+      <rect x="16" y="114" width="12" height="12" rx="2" fill="url(#gold)"/><text x="34" y="125" fill="#fff8dc">All Heroes &amp; Stars</text><text x="310" y="125" fill="#daa520">Num3</text>
+
+      <rect x="10" y="138" width="340" height="26" rx="5" fill="#150820"/>
+      <rect x="16" y="144" width="12" height="12" rx="2" fill="url(#gold)"/><text x="34" y="155" fill="#fff8dc">Auto Battle &amp; Speed 10x</text><text x="310" y="155" fill="#daa520">Num4</text>
+
+      <rect x="10" y="168" width="340" height="26" rx="5" fill="#1f1035" stroke="url(#gold)" stroke-width="0.5"/>
+      <rect x="16" y="174" width="12" height="12" rx="2" fill="url(#gold)"/><text x="34" y="185" fill="#fff8dc">Equipment &amp; Artifact Max</text><text x="310" y="185" fill="#daa520">Num5</text>
+
+      <rect x="10" y="198" width="340" height="26" rx="5" fill="#150820"/>
+      <rect x="16" y="204" width="12" height="12" rx="2" fill="url(#gemB)"/><text x="34" y="215" fill="#fff8dc">Unlimited Resources</text><text x="310" y="215" fill="#7ee8ff">Num6</text>
+
+      <rect x="10" y="228" width="340" height="26" rx="5" fill="#1f1035" stroke="url(#gold)" stroke-width="0.5"/>
+      <rect x="16" y="234" width="12" height="12" rx="2" fill="url(#gemB)"/><text x="34" y="245" fill="#fff8dc">Instant Campaign &amp; Events</text><text x="310" y="245" fill="#7ee8ff">Num7</text>
+
+      <rect x="10" y="258" width="340" height="26" rx="5" fill="#150820"/>
+      <rect x="16" y="264" width="12" height="12" rx="2" fill="#cc44aa"/><text x="34" y="275" fill="#fff8dc">Enemy ESP &amp; One Hit Kill</text><text x="310" y="275" fill="#ffb3f0">Num8</text>
+
+      <rect x="10" y="288" width="340" height="26" rx="5" fill="#1f1035" stroke="url(#gold)" stroke-width="0.5"/>
+      <rect x="16" y="294" width="12" height="12" rx="2" fill="#cc44aa"/><text x="34" y="305" fill="#fff8dc">Offline Progress Boost</text><text x="310" y="305" fill="#ffb3f0">Num9</text>
+    </g>
+
+    <rect x="10" y="324" width="340" height="44" rx="6" fill="#0a0618"/>
+    <text x="18" y="342" font-family="Consolas, monospace" font-size="10" fill="#ffd700">[OK] Attached &#183; v2.4.1 &#183; 9/9 active</text>
+    <text x="18" y="358" font-family="Consolas, monospace" font-size="10" fill="#7ee8ff">[OK] Gems &#8734; &#183; All heroes maxed</text>
+  </g>
+
+  <!-- bottom hotkeys -->
+  <rect y="460" width="1500" height="40" fill="#0a0618" opacity="0.92"/>
+  <rect y="460" width="1500" height="2" fill="url(#gold)"/>
+  <g transform="translate(40, 468)" font-family="Segoe UI" font-size="11" fill="#ccc">
+    <text x="0" y="20" fill="url(#gold)" font-weight="700">Num1</text><text x="42" y="20">Gems</text>
+    <text x="100" y="20" fill="url(#gold)" font-weight="700">Num2</text><text x="142" y="20">Level</text>
+    <text x="200" y="20" fill="url(#gold)" font-weight="700">Num3</text><text x="242" y="20">Heroes</text>
+    <text x="310" y="20" fill="url(#gold)" font-weight="700">Num4</text><text x="352" y="20">Auto 10x</text>
+    <text x="430" y="20" fill="url(#gold)" font-weight="700">Num5</text><text x="472" y="20">Gear</text>
+    <text x="530" y="20" fill="#7ee8ff" font-weight="700">Num6-9</text><text x="590" y="20">Res/Stage/ESP/Offline</text>
+    <text x="780" y="20" fill="url(#gold)" font-weight="700">Insert</text><text x="830" y="20">Menu</text>
+    <text x="1100" y="20" fill="#888">Open Source &#183; Auto-Update CI</text>
+  </g>
+
+  <!-- gems coins decorative -->
+  <g opacity="0.8">
+    <polygon points="1320,400 1338,370 1356,400 1338,430" fill="url(#gemB)"/>
+    <polygon points="1380,420 1394,400 1408,420 1394,438" fill="#cc44aa"/>
+    <ellipse cx="1450" cy="430" rx="30" ry="8" fill="url(#gold)"/>
+    <ellipse cx="1440" cy="422" rx="22" ry="7" fill="#ffd700"/>
+  </g>
+
+  <!-- island bottom -->
+  <path d="M0,500 L0,475 Q400,455 750,470 Q1100,485 1500,465 L1500,500 Z" fill="#4a9a32" opacity="0.55"/>
+</svg>
